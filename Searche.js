@@ -12,7 +12,6 @@ function buildPattern(stringMap){
 
     return pattern;
 }
-
 function proofOfExistIn(text,pattern){
     let result = []
     buildPattern(pattern).forEach(function(regEx)
